@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pick should pick queried object properties 1`] = `
+Object {
+  "a_alias": "a_prop",
+  "b": Object {
+    "c": Object {
+      "d_alias": "d_prop",
+    },
+    "e": Object {
+      "f": Object {
+        "g": "g_prop",
+        "h": "h_prop",
+      },
+    },
+  },
+  "func": Object {
+    "length": 3,
+  },
+}
+`;

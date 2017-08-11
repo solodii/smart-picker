@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createSyntaxTree should create a syntax tree that corresponds to schema 1`] = `
+Object {
+  "innerSchema": "a:a_alias,b:{c:{d:d_alias},e:{1:f},nonexistent:{}},nonexistent,:,func:{length}",
+  "key": null,
+  "offset": 0,
+  "outerSchema": "{a:a_alias,b:{c:{d:d_alias},e:{1:f},nonexistent:{}},nonexistent,:,func:{length}}",
+  "properties": Array [
+    Object {
+      "alias": "a_alias",
+      "name": "a",
+    },
+    Object {
+      "alias": null,
+      "name": "nonexistent",
+    },
+    Object {
+      "alias": null,
+      "name": null,
+    },
+  ],
+  "subtrees": Array [
+    Object {
+      "innerSchema": "c:{d:d_alias},e:{1:f},nonexistent:{}",
+      "key": Object {
+        "alias": null,
+        "name": "b",
+      },
+      "offset": 10,
+      "outerSchema": "b:{c:{d:d_alias},e:{1:f},nonexistent:{}}",
+      "properties": Array [],
+      "subtrees": Array [
+        Object {
+          "innerSchema": "d:d_alias",
+          "key": Object {
+            "alias": null,
+            "name": "c",
+          },
+          "offset": 0,
+          "outerSchema": "c:{d:d_alias}",
+          "properties": Array [
+            Object {
+              "alias": "d_alias",
+              "name": "d",
+            },
+          ],
+          "subtrees": Array [],
+        },
+        Object {
+          "innerSchema": "1:f",
+          "key": Object {
+            "alias": null,
+            "name": "e",
+          },
+          "offset": 14,
+          "outerSchema": "e:{1:f}",
+          "properties": Array [
+            Object {
+              "alias": "f",
+              "name": "1",
+            },
+          ],
+          "subtrees": Array [],
+        },
+        Object {
+          "innerSchema": "",
+          "key": Object {
+            "alias": null,
+            "name": "nonexistent",
+          },
+          "offset": 22,
+          "outerSchema": "nonexistent:{}",
+          "properties": Array [],
+          "subtrees": Array [],
+        },
+      ],
+    },
+    Object {
+      "innerSchema": "length",
+      "key": Object {
+        "alias": null,
+        "name": "func",
+      },
+      "offset": 65,
+      "outerSchema": "func:{length}",
+      "properties": Array [
+        Object {
+          "alias": null,
+          "name": "length",
+        },
+      ],
+      "subtrees": Array [],
+    },
+  ],
+}
+`;

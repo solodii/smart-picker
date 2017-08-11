@@ -1,0 +1,46 @@
+{
+  "name": "smart-picker",
+  "version": "1.0.0",
+  "description": "Convenient object picker for JavaScript apps",
+  "main": "src/index.js",
+  "typings": "./index.d.ts",
+  "files": [
+    "src",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solodii/smart-picker.git"
+  },
+  "keywords": [
+    "object",
+    "destructuring",
+    "parsing",
+    "parse",
+    "pick",
+    "ast"
+  ],
+  "author": "Stanislav Solodii <javaman92@gmail.com> (https://github.com/solodii)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solodii/smart-picker/issues"
+  },
+  "homepage": "https://github.com/solodii/smart-picker",
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "bail": true
+  }
+}

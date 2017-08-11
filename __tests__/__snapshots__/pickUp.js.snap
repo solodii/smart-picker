@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pickUp should pickUp queried object properties 1`] = `
+Object {
+  "a_alias": "a_prop",
+  "d_alias": "d_prop",
+  "f": Object {
+    "g": "g_prop",
+    "h": "h_prop",
+  },
+  "length": 3,
+}
+`;

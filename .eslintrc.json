@@ -1,0 +1,20 @@
+{
+  "extends": "standard",
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ]
+  },
+  "env": {
+    "jest": true
+  }
+}
