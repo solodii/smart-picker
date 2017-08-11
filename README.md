@@ -133,3 +133,7 @@ expect(result).toEqual({
   g_alias: 'g'
 });
 ```
+
+## Contributing
+
+Pull requests and stars are welcome. For bugs and feature requests, [please create an issue](../../issues/new).
