@@ -134,6 +134,13 @@ expect(result).toEqual({
 });
 ```
 
-## Contributing
+### Contributing
 
 Pull requests and stars are welcome. For bugs and feature requests, [please create an issue](../../issues/new).
+
+### Author
+
+**Stanislav Solodii**
+
+* [github/solodii](https://github.com/solodii)
+* [linkedin/stanislav-solodii](https://www.linkedin.com/in/stanislav-solodii-4109b4115?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHGqnTHzdRcCLgvvZLkBaNw%3D%3D)
