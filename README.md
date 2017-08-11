@@ -1,12 +1,11 @@
 # smart-picker
 
-**smart-picker** is a convenient way to pick object properties for JavaScript apps.
+> Returns a filtered copy of an object.
 
 [![build status](https://img.shields.io/travis/solodii/smart-picker/master.svg?style=flat-square)](https://travis-ci.org/solodii/smart-picker)
-[![npm version](https://img.shields.io/npm/v/smart-picker.svg?style=flat-square)]
-(https://www.npmjs.com/package/smart-picker)
+[![npm version](https://img.shields.io/npm/v/smart-picker.svg?style=flat-square)](https://www.npmjs.com/package/smart-picker)
 
-### Installation
+## Install
 
 To install the stable version:
 
@@ -18,7 +17,7 @@ This assumes you are using [npm](https://www.npmjs.com/) as your package manager
 
 The smart-picker source code is written in ES5 so it works in [any modern browser](http://caniuse.com/#feat=es5). You don't need to use Babel or a module bundler to get started with smart-picker.
 
-### Examples
+## Usage
 
 ###### Simple pick
 
