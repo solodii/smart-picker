@@ -1,6 +1,6 @@
 {
   "name": "smart-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The best way to get a filtered copy of an object with only the specified keys.",
   "main": "src/index.js",
   "typings": "./index.d.ts",

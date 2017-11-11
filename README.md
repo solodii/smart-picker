@@ -1,6 +1,8 @@
-# smart-picker [![build status](https://img.shields.io/travis/solodii/smart-picker/master.svg?style=flat-square)](https://travis-ci.org/solodii/smart-picker) [![npm version](https://img.shields.io/npm/v/smart-picker.svg?style=flat-square)](https://www.npmjs.com/package/smart-picker)
+# smart-picker
 
-> The best way to get a filtered copy of an object with only the specified keys.
+> Neat way to get a copy of an object with only the specified keys.
+
+[![build status](https://img.shields.io/travis/solodii/smart-picker/master.svg?style=flat-square)](https://travis-ci.org/solodii/smart-picker) [![npm version](https://img.shields.io/npm/v/smart-picker.svg?style=flat-square)](https://www.npmjs.com/package/smart-picker)
 
 ## Install
 
